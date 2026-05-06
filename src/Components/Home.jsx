@@ -433,13 +433,14 @@ const Home = () => {
             <div className="h-full w-full flex flex-col items-center 
             gap-[2em]">
 
-                <div className="h-[16em] w-[16em] rounded-full bg-white tablet:h-[18em] tablet:w-[18em]" ref={mobileImageRef}>
+                <div className="h-[16em] w-[16em] rounded-full bg-white tablet:h-[18em] tablet:w-[18em] overflow-hidden" ref={mobileImageRef}>
+                    <img src="./image/_.jpeg" alt="profile" className="h-full w-full object-cover" />
                 </div>
 
                 <div className="flex flex-col h-full w-full items-center gap-[1.5em]" ref={mobileContainer}>
                     <h1 className="text-[3em] bg-gradient-to-b from-purple-200 to-purple-500 text-transparent bg-clip-text font-poppins font-semibold tablet:text-[3.5em]">Hi I'm Prajwal</h1>
                     <p className="text-white/70 text-center max-w-[90%] text-[1.5em] mb-[1em] tablet:text-[2em] tablet:max-w-[85%]">I focus on creating modern user interfaces with React. Tailwind CSS and smooth animation using GSAP.</p>
-                    <button className='text-white text-[1.5em] bg-purple-600 px-5 py-2 rounded-[2em] tablet:text-[2em]'><a href="">My Resume</a></button>
+                    <button className='text-white text-[1.5em] bg-purple-600 px-5 py-2 rounded-[2em] tablet:text-[2em]'><a href="./Resume.pdf" target="_blank" rel="noopener noreferrer">My Resume</a></button>
                 </div>
             </div>
         </div>
