@@ -131,17 +131,17 @@ const Contact = () => {
 
               <p className="text-white/70 text-[1.4rem]">
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-blue-400" />
-                Email : john@example.com
+                Email : prajwalvd14@gmail.com
               </p>
 
               <p className="text-white/70 text-[1.4rem]">
                 <FontAwesomeIcon icon={faPhone} className="mr-2 text-blue-400" />
-                Phone : (123) 456-7890
+                Phone : +91 8618734223
               </p>
 
               <p className="text-white/70 text-[1.4rem]">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-blue-400" />
-                Location : New York, NY
+                Location : Hassan, Karnataka, India
               </p>
 
             </div>
@@ -156,13 +156,13 @@ const Contact = () => {
 
                   <div className="flex flex-col flex-1 gap-2">
                     <label className="text-white/80 ml-2">Name</label>
-                    <input type="text" placeholder="John Doe"
+                    <input type="text" placeholder="Enter your name"
                       className="bg-white/5 border border-white/20 rounded-xl p-4 text-white outline-none" />
                   </div>
 
                   <div className="flex flex-col flex-1 gap-2">
                     <label className="text-white/80 ml-2">Email</label>
-                    <input type="email" placeholder="john@example.com"
+                    <input type="email" placeholder="xyz@gmail.com"
                       className="bg-white/5 border border-white/20 rounded-xl p-4 text-white outline-none" />
                   </div>
 
